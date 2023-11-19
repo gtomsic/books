@@ -1,0 +1,16 @@
+{
+  "books": [
+    {
+      "title": "My Straw",
+      "id": 4
+    },
+    {
+      "title": "Harry Potter",
+      "id": 5
+    },
+    {
+      "title": "Windy the Tales",
+      "id": 6
+    }
+  ]
+}
