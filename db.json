@@ -1,16 +1,12 @@
 {
   "books": [
     {
-      "title": "My Straw",
-      "id": 4
-    },
-    {
-      "title": "Harry Potter",
-      "id": 5
-    },
-    {
-      "title": "Windy the Tales",
+      "title": "The Dark Tower",
       "id": 6
+    },
+    {
+      "title": "Madagascar 2",
+      "id": 7
     }
   ]
 }

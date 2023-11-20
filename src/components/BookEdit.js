@@ -1,10 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+import BooksContext from "../context/context";
 
-const BookEdit = ({ book, onUpdate }) => {
+const BookEdit = ({ book }) => {
   const [title, setTitle] = useState(book.title);
+  const { editBookById } = useContext(BooksContext);
   const handleSubmit = (e) => {
     e.preventDefault();
-    onUpdate({ id: book.id, title });
+    editBookById({ id: book.id, title });
   };
   return (
     <form onSubmit={handleSubmit} className="book-edit">
